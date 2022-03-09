@@ -1,0 +1,14 @@
+# msm8937_32-user 6.0.1 MMB29M eng.compiler.20170606.164800 release-keys
+- manufacturer: vivo
+- platform: msm8937
+- codename: PD1628F_EX
+- flavor: msm8937_32-user
+- release: 6.0.1
+- id: MMB29M
+- incremental: eng.compiler.20170606.164800
+- tags: release-keys
+- fingerprint: vivo/PD1628F_EX/PD1628F_EX:6.0.1/MMB29M/compiler06061651:user/release-keys
+- is_ab: false
+- brand: vivo
+- branch: msm8937_32-user-6.0.1-MMB29M-eng.compiler.20170606.164800-release-keys
+- repo: vivo_pd1628f_ex_dump

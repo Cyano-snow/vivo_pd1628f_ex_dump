@@ -1,0 +1,6 @@
+#!/system/bin/sh
+if ! applypatch -c EMMC:/dev/block/bootdevice/by-name/survival:31315182:a90276704fcb3ba48786d7558c4ccaa8a9beaf92; then
+  applypatch -b /system/etc/recovery-resource.dat EMMC:/dev/block/bootdevice/by-name/boot:19707114:5aaac5d68bd7eb4a650389a0609eadcfdea7b497 EMMC:/dev/block/bootdevice/by-name/survival a90276704fcb3ba48786d7558c4ccaa8a9beaf92 31315182 5aaac5d68bd7eb4a650389a0609eadcfdea7b497:/system/wwh && log -t recovery "Installing new ww image: succeeded" || log -t recovery "Installing new ww image: failed"
+else
+  log -t recovery "ww image already installed"
+fi

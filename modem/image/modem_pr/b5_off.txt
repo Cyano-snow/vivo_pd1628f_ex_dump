@@ -1,0 +1,10 @@
+mcfg_sw/generic/mbn_ota/cmcc/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/ct/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/cu/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/test/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/row/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/reliance/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/ais/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/dtac/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/true/mcfg_sw.mbn
+mcfg_sw/generic/mbn_ota/reserve2/mcfg_sw.mbn
